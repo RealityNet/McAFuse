@@ -1,6 +1,13 @@
 MIT License
 
-Copyright (c) 2021 RealityNet
+McAFuse - A FUSE utility to handle McAfee FDE in a digital investigation.
+
+This program expose a static file system containing 2 files:
+    - SafeBoot.disk: a fat partition inside the encrypted disk
+    - encdisk.img: an image of the encrypted disk to analyze
+
+Copyright (c) 2021 Andrea Canepa
+Copyright (c) 2021 Francesco Picasso
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
